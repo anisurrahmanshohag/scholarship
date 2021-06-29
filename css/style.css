@@ -1,0 +1,255 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jaldi', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+ul,
+ol,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+    overflow-x: hidden;
+}
+
+
+/* Common Css End */
+
+
+/* ==============banner_part start================ */
+
+.navigt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bar_bran {
+    flex-basis: 50%;
+}
+
+.togge {
+    flex-basis: 50%;
+    text-align: end;
+}
+
+.clr {
+    clear: both!important;
+    height: 70px;
+}
+
+.bar_bran {
+    width: 250px;
+}
+
+.navbar {
+    background-color: #E9EAEA;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+.main_logo a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6E6F73;
+}
+
+
+/* .main_logo a span {
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: #547DE9;
+} */
+
+.navigt .links {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #EF3D44!important;
+}
+
+#footbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #E9EAEA;
+    z-index: 80;
+}
+
+#footbar .main_logo {
+    text-align: end;
+}
+
+#footbar .main_logo a {
+    line-height: 40px;
+}
+
+#footbar .bottom_logo p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6E6F73;
+    line-height: 40px;
+}
+
+
+/* ==================================== 
+Nav part end
+====================================== */
+
+.text_content {
+    position: relative;
+    z-index: 9;
+}
+
+.text_content::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #E9EAEA;
+    left: -20px;
+    top: -40px;
+}
+
+.text_content::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #E9EAEA;
+    left: -25px;
+    top: -40px;
+}
+
+.main_content .img_box {
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+    background-position: center!important;
+    height: 800px;
+}
+
+.text_content {
+    padding-top: 150px;
+}
+
+.text_content h1 {
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #6E6F73;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.text_content .perag {
+    visibility: hidden;
+    opacity: 0;
+    padding-left: 20px;
+}
+
+.text_content .posiku {
+    position: relative;
+}
+
+.text_content .posiku .signature {
+    width: 140px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+
+.text_content .posiku .signature_down {
+    display: none;
+}
+
+.text_content .overflow_visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.text_content .overflow_hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.text_content p {
+    font-family: 'Lato', sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6E6F73;
+    letter-spacing: 1.1px;
+}
+
+.text_content .perag span {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6E6F73;
+    letter-spacing: 1.1px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.text_content .read_button {
+    display: inline-block;
+    color: #EF3D44;
+    cursor: pointer;
+}
+
+
+/* ==================================== 
+Counter part end
+====================================== */
